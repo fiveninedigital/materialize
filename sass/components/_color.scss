@@ -363,7 +363,7 @@ $colors: (
 
 
 // Color Classes
-
+/*
 @each $color_name, $color in $colors {
   @each $color_type, $color_value in $color {
     @if $color_type == "base" {
@@ -394,7 +394,7 @@ $colors: (
     color: $color_value !important;
   }
 }
-
+*/
 
 // usage: color("name_of_color", "type_of_color")
 // to avoid to repeating map-get($colors, ...)
